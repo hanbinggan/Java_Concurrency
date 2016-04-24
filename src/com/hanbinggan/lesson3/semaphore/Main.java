@@ -1,7 +1,4 @@
-package com.hanbinggan.lesson3;
-
-import com.hanbinggan.lesson3.semaphore.Job;
-import com.hanbinggan.lesson3.semaphore.PrintQueue;
+package com.hanbinggan.lesson3.semaphore;
 
 /**
  * Created by hello on 2016/4/23.
