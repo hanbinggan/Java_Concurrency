@@ -1,12 +1,12 @@
 package com.hanbinggan.runMd5;
 
-public class Test {
+public class Main {
     public static void main(String[] args){
         char q=34;
         String[] l={
                 "package com.hanbinggan.runMd5;",
                 "",
-                "public class Test {",
+                "public class Main {",
                 "    public static void main(String[] args){",
                 "        char q=34;",
                 "        String[] l={",
