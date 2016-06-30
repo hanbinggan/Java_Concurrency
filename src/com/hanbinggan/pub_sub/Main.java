@@ -10,6 +10,7 @@ public class Main {
     public static void main(){
         Map params=new LinkedHashMap<>();
         params.put("id",new Object());
-        Publisher.instance().publish("",params);
+        Publisher publisher=new Publisher();
+        publisher.publish("message",params);
     }
 }
