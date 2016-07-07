@@ -1,5 +1,5 @@
 # Java 7 Concurrency Cookbook
-## learn java concurrent
+## learn java concurrency
 ##### 1. 线程管理
 * 线程的创建有两种方法 
    * 实现 Runnable 接口，使用带参数的 Thread 的构造器，创建 Thread 对象
