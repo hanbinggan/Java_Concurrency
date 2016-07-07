@@ -17,6 +17,7 @@
 * 线程组 ThreadGroup
 * 线程组 不可控异常 继承 ThreadGroup ，覆盖 uncaughtException() 方法
 * 工厂类创建线程 实现 ThreadFactory 接口，实现 newThread() 方法
+
 ##### 2.线程同步基础
 * synchronized 关键字机制，只有执行的线程允许被访问，其他线程将被挂起，直到执行的线程完成。 synchronized 关键字会降低程序性能，只能在并发情景中需要修改共享数据的时间使用。 
 * 可以使用 synchronized 修饰方法、对象，实现方法并发访问
